@@ -18,6 +18,7 @@
         <td>
             <a asp-controller="List" asp-action="Jobs" asp-route-column="all" asp-route-value="All">View all</a>
         </td> @* Feel free to remove or modify this element if necessary. *@
+        
         @foreach (var category in ViewBag.tableChoices)
         {
             <td>
